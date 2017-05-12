@@ -2,9 +2,7 @@
 
 #echo 欢迎使用本脚本
 ping 127.0.0.1 -c 2 > /dev/null
-echo 本脚本只适用于merlin 7.2改版固件，其他固件请勿运行本脚本
-ping 127.0.0.1 -c 2 > /dev/null
-echo 仅支持7.1及以上固件
+echo 本脚本只适用于merlin 7.X改版固件，其他固件请勿运行本脚本
 ping 127.0.0.1 -c 2 > /dev/null
 echo 本提示保留5秒，如果您不是merlin改版固件请立刻按下Ctrl+C中止本脚本
 ping 127.0.0.1 -c 10 > /dev/null
@@ -12,8 +10,7 @@ echo 本脚本适用于上海电信需要AB面认证的IPTV，其他地区请按
 ping 127.0.0.1 -c 2 > /dev/null
 echo 使用前请确认光猫已经设置桥接
 ping 127.0.0.1 -c 2 > /dev/null
-echo 使用脚本前确认SS是工作状态或者是关闭状态，否则会导致脚本运行失败
-ping 127.0.0.1 -c 2 > /dev/null
+
 
 #空行
 echo
