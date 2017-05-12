@@ -1,0 +1,7 @@
+#!/bin/sh
+dbus fire onnatstart
+/usr/sbin/ip addr add 192.168.99.1/24 dev eth0
+/usr/sbin/iptables -I INPUT 4 -i eth0 -m state --state NEW -j ACCEPT
+/usr/sbin/iptables -I FORWARD 3 -i eth0 -o ppp0 -j ACCEPT
+sleep 5
+sh /koolshare/ss/nat-start.sh start_all
