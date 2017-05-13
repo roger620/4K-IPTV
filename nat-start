@@ -3,5 +3,7 @@ dbus fire onnatstart
 /usr/sbin/ip addr add 192.168.99.1/24 dev eth0
 /usr/sbin/iptables -I INPUT 4 -i eth0 -m state --state NEW -j ACCEPT
 /usr/sbin/iptables -I FORWARD 3 -i eth0 -o ppp0 -j ACCEPT
+/usr/sbin/ifconfig eth0:1 192.168.1.200 netmask 255.255.255.0
+/usr/sbin/iptables -t nat -I POSTROUTING -o eth0 -d 192.168.1.0/24 -j MASQUERADE
 sleep 5
 sh /koolshare/ss/nat-start.sh start_all
