@@ -45,9 +45,9 @@ echo 正在删除旧文件
 rm -rf dnsmasq.conf.add*
 #下载开机运行脚本
 echo 正在下载新文件
-wget -q --no-check-certificate https://raw.githubusercontent.com/ArronYin/4K-IPTV/master/iptv.conf
+wget -q --no-check-certificate https://raw.githubusercontent.com/ArronYin/4K-IPTV/master/dnsmasq.conf.add
 #设置权限
-chmod -R 0644 iptv.conf
+chmod -R 0644 dnsmasq.conf.add
 #完成提示
 echo 成功
 
