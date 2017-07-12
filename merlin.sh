@@ -39,7 +39,7 @@ echo
 #脚本提示
 echo 正添加IPTV运行脚本
 #移动到脚本目录
-cd /jffs/configs
+cd /jffs/scripts
 #删除旧dnsmasq配置文件
 echo 正在删除旧文件
 rm -rf dnsmasq.conf.add*
