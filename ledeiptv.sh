@@ -36,8 +36,8 @@ echo
 
 #运行提示
 echo 正在重启路由器，请待路由器重启成功后，重新启动IPTV
-rm lede.sh
-rm ledeiptv.sh
+rm lede.sh*
+rm ledeiptv.sh*
 #延迟运行
 ping 127.0.0.1 -c 2 > /dev/null
 #重启路由器
