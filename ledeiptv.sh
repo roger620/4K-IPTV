@@ -17,7 +17,7 @@ echo 正在下载新文件
 wget -q --no-check-certificate https://raw.githubusercontent.com/ArronYin/4K-IPTV/master/lede.sh
 #设置权限
 chmod -R 0755 lede.sh 
-bash lede.sh
+sh lede.sh
 #完成提示
 echo 成功
 
