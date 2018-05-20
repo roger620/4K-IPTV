@@ -10,6 +10,6 @@ dhcp-option-force=interface:eth0,125,00:00:00:00:1a:02:06:48:47:57:2d:43:54:0a:0
 EOF
 cat > /etc/rc.local <<EOF
 ip addr add 192.168.99.1/24 dev eth0
-iptables -I INPUT 4 -i eth0 -m state --state NEW -j ACCEPT
-iptables -I FORWARD 3 -i eth0 -o pppoe-wan -j ACCEPT
+iptables -I INPUT -i eth0 -m state --state NEW -j ACCEPT
+iptables -I FORWARD -i eth0 -o pppoe-wan -j ACCEPT
 EOF
