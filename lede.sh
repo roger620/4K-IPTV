@@ -12,4 +12,5 @@ cat > /etc/rc.local <<EOF
 ip addr add 192.168.99.1/24 dev eth0
 iptables -I INPUT -i eth0 -m state --state NEW -j ACCEPT
 iptables -I FORWARD -i eth0 -o pppoe-wan -j ACCEPT
+exit 0
 EOF
