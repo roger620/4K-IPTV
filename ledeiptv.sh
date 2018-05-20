@@ -2,9 +2,9 @@
 
 #echo 欢迎使用本脚本
 ping 127.0.0.1 -c 2 > /dev/null
-echo 本脚本只适用于是Koolshare openwrt固件，其他固件请勿运行本脚本
+echo 本脚本只适用于是Koolshare LEDE固件，其他固件请勿运行本脚本
 ping 127.0.0.1 -c 2 > /dev/null
-echo 本提示保留5秒，如果您不是Koolshare openwrt固件请立刻按下Ctrl+C中止本脚本
+echo 本提示保留5秒，如果您不是Koolshare LEDE固件请立刻按下Ctrl+C中止本脚本
 ping 127.0.0.1 -c 10 > /dev/null
 echo 本脚本适用于上海电信需要AB面认证的IPTV，其他地区请按实际情况修改脚本
 ping 127.0.0.1 -c 2 > /dev/null
