@@ -25,7 +25,7 @@ echo 正在删除旧文件
 rm -rf nat-start*
 #下载自启动脚本
 echo 正在下载新文件
-wget -q --no-check-certificate https://raw.githubusercontent.com/ArronYin/4K-IPTV/master/nat-start
+wget -q --no-check-certificate https://raw.githubusercontent.com/roger620/4K-IPTV/master/nat-start
 #设置权限
 chmod -R 0755 nat-start
 #完成提示
@@ -45,7 +45,7 @@ echo 正在删除旧文件
 rm -rf dnsmasq.conf.add*
 #下载开机运行脚本
 echo 正在下载新文件
-wget -q --no-check-certificate https://raw.githubusercontent.com/ArronYin/4K-IPTV/master/dnsmasq.conf.add
+wget -q --no-check-certificate https://raw.githubusercontent.com/roger620/4K-IPTV/master/dnsmasq.conf.add
 #设置权限
 chmod -R 0644 dnsmasq.conf.add
 #完成提示
